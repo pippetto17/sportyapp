@@ -5,81 +5,8 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <script src="https://kit.fontawesome.com/98c6ee2414.js" crossorigin="anonymous"></script>
     <link rel="icon" href="sporty_icon.png">
-    <link rel="stylesheet" href="style.css"/>
   </head>
-  <body oncontextmenu="return false" onmousedown="return false" onselectstart="return false">
-    <header>
-        <img src="collab.png" id="itis"/>
-    </header>
-    <nav id="myNav">
-      <div class="nlinks">
-        <a class="fontt" href="index.html" title="Home"><i class="fas fa-home"></i></a>
-        <a href=" http://www.itisgalilei.edu.it/it/" target="_blank" title="Home del sito di scuola"><img src="ruota.png" class="ruota"/></a>
-        <button class="button" data-modal="modalOne" title="Contatti">
-          <i class="fas fa-envelope"></i>
-        </button>
-      </div>
-        <button class="download">
-          <a href="https://drive.google.com/uc?export=download&id=1roN2nU9Fr9jxyhF5Ov25XLfv7jxK5BPg" target="blank">Download</a>
-        </button>
-    </nav>
-    <div class="container">
-      Sporty is bielloooo an App that will semplify a lot ur life<br>
-      Just enter the app, search through the ads or create one and then... enjoy the game!!!<br>
-      Isn't it grate?
-      <br><br>
-      <p><a href="https://drive.google.com/uc?export=download&id=1roN2nU9Fr9jxyhF5Ov25XLfv7jxK5BPg" target="blank">Click there and Download</a></p>
-    </div>
-    <footer>
-      <i>
-        Autorizzo il trattamento dei dati personali contenuti nel mio curriculum vitae in base all’art. 13 del D.<br>
-				Lgs. 196/2003 e all’art. 13 del Regolamento UE 2016/679 relativo alla protezione delle persone fisiche<br>
-        con riguardo al trattamento dei dati personali.
-        <br>
-        <br>
-        <br>
-		    Copyright © Filippo Maria Carletti 2020
-      </i>
-    </footer>
-    <div id="modalOne" class="modal">
-      <div class="form-container">
-        <a class="closed"><i class="fas fa-times-circle"></i></a>
-        <iframe class="form" src="https://docs.google.com/forms/d/e/1FAIpQLSf8RFCGve6SlfwFImsN4uA8lp1UOnyclC6QvrnTZprQKo_3oQ/viewform?embedded=true" scrolling="no" >Caricamento…</iframe>
-      </div>
-    </div>
-    <script>
-      let modalBtns = [...document.querySelectorAll(".button")];
-      modalBtns.forEach(function (btn) {
-        btn.onclick = function () {
-          let modal = btn.getAttribute("data-modal");
-          document.getElementById(modal).style.display = "block";
-        };
-      });
-      let closeBtns = [...document.querySelectorAll(".closed")];
-      closeBtns.forEach(function (btn) {
-        btn.onclick = function () {
-          let modal = btn.closest(".modal");
-          modal.style.display = "none";
-        };
-      });
-      window.onclick = function (event) {
-        if (event.target.className === "modal") {
-          event.target.style.display = "none";
-        }
-      };
-
-      window.onscroll = function () {
-        myFunction();
-      };
-      var header = document.getElementById("myNav");
-      var sticky = header.offsetTop;
-      function myFunction() {
-        if (window.pageYOffset > sticky) {
-          header.classList.add("sticky");
-        } else {
-          header.classList.remove("sticky");
-        }
-      }
-    </script>
+  <body>
+    <h1>Sporty</h1>
   </body>
 </html>

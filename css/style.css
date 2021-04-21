@@ -972,12 +972,4 @@ html {
     margin-left: auto;
     margin-right: auto;
   }
-
-  .fh5co-slider-outer .carousel-right-arrow {
-    visibility: hidden;
-  }
-
-  .fh5co-slider-outer .carousel-left-arrow {
-    visibility: hidden;
-  }
 }

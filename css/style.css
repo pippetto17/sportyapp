@@ -23,7 +23,7 @@ html {
 }
 
 .download-btn-first:hover {
-  background: #234197;
+  background: #1e7e34;
   color: #fff !important;
 }
 
@@ -33,13 +33,13 @@ html {
 
 .features-btn-first:hover {
   background: #f7f7f7 !important;
-  color: #234197 !important;
+  color: #1e7e34 !important;
 }
 
 #fh5co-hero-wrapper {
   height: 800px;
   width: 100%;
-  background: url("../img/banner-bg.jpg") no-repeat center;
+  background: url("../img/sfondo.jpg") no-repeat center;
   border-radius: 0 0 50% 50% / 4%;
 }
 
@@ -116,13 +116,13 @@ html {
   font-size: 15px;
   padding: 10px 15px;
   font-weight: 700;
-  color: #234197;
+  color: #1e7e34;
 }
 .fh5co-hero-inner .features-btn-first {
   font-size: 15px;
   padding: 8px 13px;
   font-weight: 400;
-  background: #234197;
+  background: #1e7e34;
   color: #fff;
   margin-left: 10px;
 }
@@ -143,7 +143,7 @@ html {
   overflow: hidden;
 }
 .fh5co-advantages-outer .span-perfect {
-  color: #648cff;
+  color: #1e7e34;
   text-transform: uppercase;
   font-size: 27px;
   letter-spacing: 1px;
@@ -200,7 +200,7 @@ html {
   padding: 70px;
 }
 .fh5co-slider-outer h1 {
-  color: #648cff;
+  color: #1e7e34;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 600;
@@ -261,7 +261,7 @@ html {
   position: relative;
 }
 .fh5co-features-outer .sm-6-content h1 {
-  color: #648cff;
+  color: #1e7e34;
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 600;
@@ -292,7 +292,7 @@ html {
   box-sizing: initial;
   position: absolute;
   font-weight: 700;
-  right: 0;
+  right:0;
   top: 140px;
 }
 .fh5co-features-outer .col-sm-6 .span-free {
@@ -417,7 +417,7 @@ html {
   margin-top: 100px;
 }
 .fh5co-reviews-outer > h1 {
-  color: #648cff;
+  color: #1e7e34;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 600;
@@ -481,7 +481,7 @@ html {
   width: 100%;
   padding: 50px;
   height: 250px;
-  background: #2e3149;
+  background: #10441c;
   overflow: hidden;
 }
 .footer-outer .footer-inner {

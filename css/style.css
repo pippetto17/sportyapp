@@ -995,4 +995,9 @@ html {
     width: 100%;
     text-align: center;
   }
+
+  .footer-outer .copyright {
+    margin-top: 60px;
+    padding: 10px 0;
+  }
 }

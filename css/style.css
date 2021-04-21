@@ -10,8 +10,35 @@ html {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #dadada;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00a700; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #007a29; 
+}
+
 .prova{
   max-height: 50px;
+}
+
+.simboli{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-left: 180px;
+  margin-top: 30px;
 }
 
 .copyright a:hover{
@@ -146,6 +173,9 @@ html {
   height: auto;
   width: 100%;
   overflow: hidden;
+}
+.fh5co-advantages-outer .container{
+  margin-top: 95px;
 }
 .fh5co-advantages-outer .span-perfect {
   color: #1e7e34;
@@ -976,5 +1006,14 @@ html {
   .fh5co-slider-outer .item img{
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .simboli{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-right: 35px;
   }
 }

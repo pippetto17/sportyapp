@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
 * {
   margin: 0px;
@@ -10,30 +9,31 @@ html {
   overflow-x: hidden;
 }
 
+/* custom scrollbar */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 15px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
-  background: #dadada;
+  background-color: transparent;
 }
- 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
-  background: #00a700; 
+  background-color: #5aa871;
+  border-radius: 20px;
+  border: 3px solid transparent;
+  background-clip: content-box;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #007a29; 
+  background-color: #3f6341;
 }
 
-.prova{
+.prova {
   max-height: 50px;
 }
 
-.simboli{
+.simboli {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -41,11 +41,11 @@ html {
   margin-top: 30px;
 }
 
-.copyright a:hover{
+.copyright a:hover {
   color: white;
   font-weight: bold;
 }
-.copyright a{
+.copyright a {
   color: white;
   text-decoration: none;
 }
@@ -88,15 +88,15 @@ html {
 }
 .main-navbar-nav li {
   color: #fff;
-  opacity: .7;
+  opacity: 0.7;
 }
 .main-navbar-nav .navbar-nav .nav-item a:hover {
   color: #234197 !important;
-  -webkit-transition: all .33s ease;
-  -moz-transition: all .33s ease;
-  -o-transition: all .33s ease;
-  -ms-transition: all .33s ease;
-  transition: all .33s ease;
+  -webkit-transition: all 0.33s ease;
+  -moz-transition: all 0.33s ease;
+  -o-transition: all 0.33s ease;
+  -ms-transition: all 0.33s ease;
+  transition: all 0.33s ease;
 }
 .main-navbar-nav .active {
   color: #fff !important;
@@ -118,12 +118,12 @@ html {
 }
 
 .social-icons-header a:hover i {
-  opacity: .6;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  -ms-transition: all .2s ease;
-  transition: all .2s ease;
+  opacity: 0.6;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .fh5co-hero-inner {
@@ -174,7 +174,7 @@ html {
   width: 100%;
   overflow: hidden;
 }
-.fh5co-advantages-outer .container{
+.fh5co-advantages-outer .container {
   margin-top: 95px;
 }
 .fh5co-advantages-outer .span-perfect {
@@ -242,7 +242,8 @@ html {
   margin-bottom: 10px;
   text-align: center;
 }
-.fh5co-slider-outer > h1, .fh5co-slider-outer small {
+.fh5co-slider-outer > h1,
+.fh5co-slider-outer small {
   text-align: center;
   display: block;
 }
@@ -327,7 +328,7 @@ html {
   box-sizing: initial;
   position: absolute;
   font-weight: 700;
-  right:0;
+  right: 0;
   top: 140px;
 }
 .fh5co-features-outer .col-sm-6 .span-free {
@@ -468,7 +469,7 @@ html {
   margin-top: 25px;
 }
 
-   /* ==========================================================================================================
+/* ==========================================================================================================
 										SUB FOOTER
    ========================================================================================================== */
 .img-float-left {
@@ -495,12 +496,12 @@ html {
   font-size: 20px;
 }
 .footer-outer .social-icons-footer a:hover i {
-  opacity: .6;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  -ms-transition: all .2s ease;
-  transition: all .2s ease;
+  opacity: 0.6;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .footer-outer .footer-three-grid {
   width: 1140px;
@@ -537,9 +538,9 @@ html {
 .footer-outer .column-3-3 .social-icons-header a:hover {
   color: #fff;
   opacity: 1;
-  -webkit-transition: color .2s ease;
-  -o-transition: color .2s ease;
-  transition: color .2s ease;
+  -webkit-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease;
 }
 .footer-outer .footer-nav ul {
   list-style: none;
@@ -554,9 +555,9 @@ html {
 }
 .footer-outer .footer-nav ul li:hover {
   color: #fff;
-  -webkit-transition: color .2s ease-in-out;
-  -o-transition: color .2s ease-in-out;
-  transition: color .2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 .footer-outer .footer-nav ul .active {
   color: #fff;
@@ -582,6 +583,7 @@ html {
 
 .google-play-btn {
   margin-left: 10px;
+  height: 60px;
 }
 
 /* ==========================================================================================================
@@ -736,7 +738,8 @@ html {
     float: none;
   }
 
-  .fh5co-features-outer .col-sm-6 .span-percent, .fh5co-features-outer .col-sm-6 .span-free {
+  .fh5co-features-outer .col-sm-6 .span-percent,
+  .fh5co-features-outer .col-sm-6 .span-free {
     left: -15px;
     bottom: 140px;
   }
@@ -756,7 +759,7 @@ html {
   }
 
   .fh5co-advantages-outer .second-title {
-    margin-top: 60px;
+    margin-top: 270px;
   }
 
   .fh5co-features-grid-columns {
@@ -788,6 +791,11 @@ html {
     margin-right: 10px !important;
     margin-left: 0 !important;
     font-size: 30px;
+  }
+
+  .fh5co-slider-outer .item img {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (max-width: 800px) {
@@ -821,7 +829,7 @@ html {
   }
 
   .fh5co-advantages-outer .second-title {
-    margin-top: 60px;
+    margin-top: 270px;
   }
 
   .fh5co-bottom-outer {
@@ -1003,12 +1011,12 @@ html {
     padding: 10px 0;
   }
 
-  .fh5co-slider-outer .item img{
+  .fh5co-slider-outer .item img {
     margin-left: auto;
     margin-right: auto;
   }
 
-  .simboli{
+  .simboli {
     display: inline-block;
     width: 60px;
     height: 60px;

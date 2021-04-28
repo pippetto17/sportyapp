@@ -646,8 +646,9 @@ html {
   }
 
   .fh5co-advantages-outer {
-    margin-top: 50px;
+    margin-top: 0;
     padding-bottom: 0;
+    padding: 0;
   }
 
   .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-image {
